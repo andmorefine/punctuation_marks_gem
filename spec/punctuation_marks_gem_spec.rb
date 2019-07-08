@@ -3,7 +3,7 @@ RSpec.describe PunctuationMarksGem do
     expect(PunctuationMarksGem::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "greet test = Hello" do
+    expect(PunctuationMarksGem.greet).to eq("Hello")
   end
 end
