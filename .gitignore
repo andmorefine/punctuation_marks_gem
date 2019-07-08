@@ -1,4 +1,4 @@
-/.bundle/
+# /.bundle/
 /.yardoc
 /_yardoc/
 /coverage/
@@ -9,3 +9,7 @@
 
 # rspec failure tracking
 .rspec_status
+
+.DS_Store
+# Ignore bundler config.
+vendor/bundle
